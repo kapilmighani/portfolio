@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+}
+.mainnavbar{
+    background-color: white;
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+.firstnavbar{
+    padding-right: 450px;
+    padding-left: 20px;
+}
+.secondnavbar a{
+    padding: 15px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.firstnavbar a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.secondnavbar a:hover{
+    text-decoration: underline;
+    font-size:20px;
+    transition: all 0.4s linear;
+}
+.firstabout{
+    display: flex;
+}
+.mainnavbar{
+    display: flex;
+}
+.firstspanabout{
+    padding-left: 10px;
+}
+.fontspan{
+    font-weight: bold;
+}
+.imgabout img{
+    border-radius: 10px;
+}
+.imgabout{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.firstspanabout{
+    padding-top: 10px;
+    padding-left: 7px;
+    margin-top: 25px;
+}
+.aboutbold{
+    font-weight: bold;
+    font-size: 30px;
+}
+.mainabout{
+    display: flex;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 100px;
+    background-color: bisque;
+}
+.aboutbold{
+    line-height: 50px;
+}
+.aboutme{
+    padding-left: 15px;
+}
+.htmlback{
+    background-color: blue;
+    width: 170px;
+    height: 20px;
+}
+.cssback{
+    background-color: blue;
+    height: 20px;
+    width: 155px;
+}
+.phpback{
+    background-color: blue;
+    height: 20px;
+    width: 100px;
+}
+.javaback{
+    background-color: blue;
+    height: 20px;
+    width: 180px;
+}
+.submainabout , .aboutme {
+    flex: 1;
+
+}
